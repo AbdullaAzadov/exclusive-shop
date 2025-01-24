@@ -14,7 +14,7 @@ export const Swiper: FC<ISwiperProps> = ({ data }) => {
   return (
     <article className='w-full h-full bg-black flex flex-col gap-4 items-center'>
       <SwiperItem data={activeItem} />
-      <div className='flex gap-2 py-3'>
+      <div className='flex gap-2 py-2'>
         {data.map((_, index) => (
           <span
             className={`block w-[0.75rem] h-[0.75rem] border-2 rounded-full cursor-pointer ${

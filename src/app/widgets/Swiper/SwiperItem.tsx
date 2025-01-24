@@ -10,7 +10,7 @@ interface SwiperItemProps {
 
 export const SwiperItem: FC<SwiperItemProps> = ({ data }) => {
   return (
-    <div className='text-white w-[65%] flex justify-between py-4 select-none'>
+    <div className='text-white w-[65%] flex justify-between py-6 select-none'>
       <div className='w-2/5'>
         <div>
           <p className='flex items-center gap-2 font-thin'>
